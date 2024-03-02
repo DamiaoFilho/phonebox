@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from rest_framework import generics
+from rest_framework import viewsets
 from ..models import Contact
 from ..serializers import ContactSerializer
 
 
-class ContactDetailView(generics.RetrieveUpdateDestroyAPIView):
+class ContactViewset(viewsets.ModelViewSet):
     serializer_class = ContactSerializer
     queryset = Contact.objects.all()
