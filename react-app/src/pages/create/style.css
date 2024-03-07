@@ -1,0 +1,11 @@
+.createForm{
+    display: flex;
+    gap: 32px;
+    padding: 5px;
+}
+input{
+    border-radius: 16px;
+}
+label{
+    color: white;
+}

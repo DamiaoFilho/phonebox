@@ -1,0 +1,10 @@
+.details{
+    background-color: white;
+    width: 50%;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
